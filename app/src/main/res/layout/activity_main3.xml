@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:id="@+id/activity_main3"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingBottom="@dimen/activity_vertical_margin"
+  android:paddingLeft="@dimen/activity_horizontal_margin"
+  android:paddingRight="@dimen/activity_horizontal_margin"
+  android:paddingTop="@dimen/activity_vertical_margin"
+  android:orientation="vertical"
+  tools:context="com.example.MAD_Hotel.hotel_management.Main3Activity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="236dp"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+      android:id="@+id/chkin"
+      android:layout_width="175dp"
+      android:layout_height="match_parent"
+      app:cardBackgroundColor="@color/colorblue">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="CHECK IN"
+          android:textAlignment="center"
+          android:textSize="30sp"></TextView>
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+      android:id="@+id/chkout"
+      android:layout_width="168dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="center"
+      app:cardBackgroundColor="@color/colorblue">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="ROOMS AVAILABLE"
+          android:textAlignment="center"
+          android:textSize="30sp"></TextView>
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+      android:id="@+id/viewg"
+      android:layout_width="176dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="center"
+      app:cardBackgroundColor="@color/colorblue">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="351dp"
+            android:text="VIEW ALL GUEST"
+            android:textAlignment="center"
+            android:textSize="30sp"></TextView>
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+      android:id="@+id/billg"
+      app:cardBackgroundColor="@color/colorblue"
+      android:layout_width="168dp"
+      android:layout_height="match_parent"
+      android:layout_gravity="center">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="351dp"
+            android:text="BILL-DETAILS\n(CHECK OUT)"
+            android:textAlignment="center"
+            android:textSize="30sp"></TextView>
+      </LinearLayout>
+    </android.support.v7.widget.CardView>
+  </LinearLayout>
+</LinearLayout>

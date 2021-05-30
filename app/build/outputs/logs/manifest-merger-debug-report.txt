@@ -1,0 +1,148 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\87d3ec77b9b959dc3ab0220b7f1730e2\constraint-layout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\dbda32534856991d5fde864e67422bdd\appcompat-v7-25.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:cardview-v7:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\7674969d04b34280bdcc009cba4f297c\cardview-v7-25.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\47211a1045c196b25def62518e7951a2\animated-vector-drawable-25.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\294b7330056f16fb5ae3a413b8665a07\support-vector-drawable-25.1.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\6099df1e21f44b186279c9726e9ddc98\support-v4-25.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\e6e4aeef1666b8968c010e1ed426f0cb\support-fragment-25.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\6358a9fb78cafbe6bc663b489fd95ccc\support-media-compat-25.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\d1cf5b67f96552a0b78690d532fb41e1\support-core-utils-25.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\f64786bc55fe902f52089e38042c26d3\support-core-ui-25.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\f7f19aac89d9b512405a3df843b7a4ba\support-compat-25.1.0\AndroidManifest.xml:17:1-27:12
+INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:3:3-51
+		INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SEND_SMS
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:4:2-63
+	android:name
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:4:19-61
+application
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:5:3-24:17
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\87d3ec77b9b959dc3ab0220b7f1730e2\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\87d3ec77b9b959dc3ab0220b7f1730e2\constraint-layout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\dbda32534856991d5fde864e67422bdd\appcompat-v7-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\dbda32534856991d5fde864e67422bdd\appcompat-v7-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\7674969d04b34280bdcc009cba4f297c\cardview-v7-25.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\7674969d04b34280bdcc009cba4f297c\cardview-v7-25.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\47211a1045c196b25def62518e7951a2\animated-vector-drawable-25.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\47211a1045c196b25def62518e7951a2\animated-vector-drawable-25.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\294b7330056f16fb5ae3a413b8665a07\support-vector-drawable-25.1.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\294b7330056f16fb5ae3a413b8665a07\support-vector-drawable-25.1.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\6099df1e21f44b186279c9726e9ddc98\support-v4-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\6099df1e21f44b186279c9726e9ddc98\support-v4-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\e6e4aeef1666b8968c010e1ed426f0cb\support-fragment-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\e6e4aeef1666b8968c010e1ed426f0cb\support-fragment-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\6358a9fb78cafbe6bc663b489fd95ccc\support-media-compat-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\6358a9fb78cafbe6bc663b489fd95ccc\support-media-compat-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\d1cf5b67f96552a0b78690d532fb41e1\support-core-utils-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\d1cf5b67f96552a0b78690d532fb41e1\support-core-utils-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\f64786bc55fe902f52089e38042c26d3\support-core-ui-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\f64786bc55fe902f52089e38042c26d3\support-core-ui-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\f7f19aac89d9b512405a3df843b7a4ba\support-compat-25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\f7f19aac89d9b512405a3df843b7a4ba\support-compat-25.1.0\AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:9:5-31
+	android:label
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:8:5-37
+	android:icon
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:7:5-36
+	android:allowBackup
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:6:5-31
+	android:theme
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:10:5-36
+activity#com.example.MAD_Hotel.hotel_management.MainActivity
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:11:5-17:16
+	android:name
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:11:15-81
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:12:7-16:23
+action#android.intent.action.MAIN
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:13:9-61
+	android:name
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:13:17-58
+category#android.intent.category.LAUNCHER
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:15:9-69
+	android:name
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:15:19-66
+activity#com.example.MAD_Hotel.hotel_management.Main2Activity
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:18:5-85
+	android:name
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:18:15-82
+activity#com.example.MAD_Hotel.hotel_management.Main3Activity
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:19:5-85
+	android:name
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:19:15-82
+activity#com.example.MAD_Hotel.hotel_management.GUEST_INSERT_INFO
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:20:5-89
+	android:name
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:20:15-86
+activity#com.example.MAD_Hotel.hotel_management.Login
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:21:5-77
+	android:name
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:21:15-74
+activity#com.example.MAD_Hotel.hotel_management.Emp_info
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:22:15-77
+activity#com.example.MAD_Hotel.hotel_management.BILLING
+ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:23:15-76
+uses-sdk
+INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\87d3ec77b9b959dc3ab0220b7f1730e2\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\87d3ec77b9b959dc3ab0220b7f1730e2\constraint-layout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\dbda32534856991d5fde864e67422bdd\appcompat-v7-25.1.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\dbda32534856991d5fde864e67422bdd\appcompat-v7-25.1.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:cardview-v7:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\7674969d04b34280bdcc009cba4f297c\cardview-v7-25.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\7674969d04b34280bdcc009cba4f297c\cardview-v7-25.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\47211a1045c196b25def62518e7951a2\animated-vector-drawable-25.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\47211a1045c196b25def62518e7951a2\animated-vector-drawable-25.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\294b7330056f16fb5ae3a413b8665a07\support-vector-drawable-25.1.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\294b7330056f16fb5ae3a413b8665a07\support-vector-drawable-25.1.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\6099df1e21f44b186279c9726e9ddc98\support-v4-25.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\6099df1e21f44b186279c9726e9ddc98\support-v4-25.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\e6e4aeef1666b8968c010e1ed426f0cb\support-fragment-25.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\e6e4aeef1666b8968c010e1ed426f0cb\support-fragment-25.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\6358a9fb78cafbe6bc663b489fd95ccc\support-media-compat-25.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\6358a9fb78cafbe6bc663b489fd95ccc\support-media-compat-25.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\d1cf5b67f96552a0b78690d532fb41e1\support-core-utils-25.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\d1cf5b67f96552a0b78690d532fb41e1\support-core-utils-25.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\f64786bc55fe902f52089e38042c26d3\support-core-ui-25.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\f64786bc55fe902f52089e38042c26d3\support-core-ui-25.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\f7f19aac89d9b512405a3df843b7a4ba\support-compat-25.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\f7f19aac89d9b512405a3df843b7a4ba\support-compat-25.1.0\AndroidManifest.xml:21:5-23:58
+INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.0] C:\Users\pooja\.gradle\caches\transforms-2\files-2.1\dbda32534856991d5fde864e67422bdd\appcompat-v7-25.1.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+		ADDED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MAD\HO_MA\app\src\main\AndroidManifest.xml

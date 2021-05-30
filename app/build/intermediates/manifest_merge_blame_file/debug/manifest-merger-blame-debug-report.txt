@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.MAD_Hotel.hotel_management"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="25" />
+9-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SEND_SMS" />
+11-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:4:2-63
+11-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:4:19-61
+12
+13    <application
+13-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:5:3-24:17
+14        android:allowBackup="true"
+14-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:6:5-31
+15        android:debuggable="true"
+16        android:icon="@drawable/images"
+16-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:7:5-36
+17        android:label="HOTEL MANAGEMENT"
+17-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:8:5-37
+18        android:supportsRtl="true"
+18-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:9:5-31
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:10:5-36
+21        <activity android:name="com.example.MAD_Hotel.hotel_management.MainActivity" >
+21-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:11:5-17:16
+21-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:11:15-81
+22            <intent-filter>
+22-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:12:7-16:23
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:13:9-61
+23-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:13:17-58
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:15:9-69
+25-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:15:19-66
+26            </intent-filter>
+27        </activity>
+28        <activity android:name="com.example.MAD_Hotel.hotel_management.Main2Activity" />
+28-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:18:5-85
+28-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:18:15-82
+29        <activity android:name="com.example.MAD_Hotel.hotel_management.Main3Activity" />
+29-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:19:5-85
+29-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:19:15-82
+30        <activity android:name="com.example.MAD_Hotel.hotel_management.GUEST_INSERT_INFO" />
+30-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:20:5-89
+30-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:20:15-86
+31        <activity android:name="com.example.MAD_Hotel.hotel_management.Login" />
+31-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:21:5-77
+31-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:21:15-74
+32        <activity android:name="com.example.MAD_Hotel.hotel_management.Emp_info" />
+32-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:22:5-80
+32-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:22:15-77
+33        <activity android:name="com.example.MAD_Hotel.hotel_management.BILLING" />
+33-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:23:5-79
+33-->D:\MAD\HO_MA\app\src\main\AndroidManifest.xml:23:15-76
+34    </application>
+35
+36</manifest>

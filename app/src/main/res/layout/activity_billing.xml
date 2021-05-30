@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_billing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.MAD_Hotel.hotel_management.BILLING">
+
+  <TextView
+    android:id="@+id/T1"
+    android:layout_width="200dp"
+    android:layout_height="30dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="82dp"
+    android:paddingLeft="60dp"
+
+    android:text="ENTER ID"
+    android:textColor="@android:color/black"
+    android:textSize="20dp" />
+
+  <EditText
+    android:id="@+id/EE1"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="160dp"
+    android:paddingLeft="60dp"
+    android:textColor="@android:color/black"
+    android:textSize="20dp" />
+
+  <Button
+    android:id="@+id/BB1"
+    android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="276dp"
+    android:text="BILL"
+    android:textColor="@android:color/black" />
+
+  <Button
+  android:id="@+id/smsbutton"
+  android:layout_width="200dp"
+  android:layout_height="60dp"
+  android:layout_alignParentTop="true"
+  android:layout_centerHorizontal="true"
+  android:layout_marginTop="376dp"
+  android:text="SMS"
+  android:textColor="@android:color/black" />
+</RelativeLayout>

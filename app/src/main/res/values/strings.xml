@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">HOTEL_MANAGEMENT_DBMS</string>
+  <string-array name="ROOM_TYPE">
+    <item>GOLD</item>
+    <item>SILVER</item>
+
+  </string-array>
+</resources>

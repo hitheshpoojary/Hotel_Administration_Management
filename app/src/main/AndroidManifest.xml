@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.example.MAD_Hotel.hotel_management">
+ <uses-permission android:name="android.permission.SEND_SMS"/>
+  <application
+    android:allowBackup="true"
+    android:icon="@drawable/images"
+    android:label="HOTEL MANAGEMENT"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name="com.example.MAD_Hotel.hotel_management.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name="com.example.MAD_Hotel.hotel_management.Main2Activity" />
+    <activity android:name="com.example.MAD_Hotel.hotel_management.Main3Activity" />
+    <activity android:name="com.example.MAD_Hotel.hotel_management.GUEST_INSERT_INFO" />
+    <activity android:name="com.example.MAD_Hotel.hotel_management.Login" />
+    <activity android:name="com.example.MAD_Hotel.hotel_management.Emp_info" />
+    <activity android:name="com.example.MAD_Hotel.hotel_management.BILLING" />
+  </application>
+
+</manifest>
