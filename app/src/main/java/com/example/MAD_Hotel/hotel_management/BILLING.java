@@ -28,40 +28,39 @@ public class BILLING extends AppCompatActivity {
         BILL=new DATABASE_GUEST(this);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view) {  //here we send bill details to the customer
 
                 Cursor res=BILL.getALLData();
                 String x=E.getText().toString();
-                if(res.getCount()==0)
+                if(res.getCount()==0)  //no customers detected
                 {showMessage("ERROR","NOTHING FOUND");
                 }
 
-
+//to get bill amount of the customer
                 while(res.moveToNext())
                 {   StringBuffer buffer=new StringBuffer();
 
 
-
-                    if(x.equals(res.getString(0))) {
+                  if(x.equals(res.getString(0))) {
 
 
                     h=1;
-                    if((res.getString(6)).equals("GOLD")) {
+                    if((res.getString(6)).equals("GOLD")) {  //if selected room= GOLD
                         buffer.append("ID :" + res.getString(0) + "\n");
                         buffer.append("NAME :" + res.getString(1) + "\n");
                         int days=0;
                         int b=0;
-                        if(Integer.parseInt(res.getString(4))>Integer.parseInt(res.getString(3))){
+                        if(Integer.parseInt(res.getString(4))>Integer.parseInt(res.getString(3))){  //to date - from date
                             days=Integer.parseInt(res.getString(4))-Integer.parseInt(res.getString(3));
                             b=(Integer.parseInt(res.getString(4))-Integer.parseInt(res.getString(3)))*2000;}
-                        else{
+                        else{   //from date- to date
                             days=30+Integer.parseInt(res.getString(4))-Integer.parseInt(res.getString(3));
                             b=(30+Integer.parseInt(res.getString(4))-Integer.parseInt(res.getString(3)))*2000;}
 
                         buffer.append("BILL :₹" + b + "\n Number of days:"+days+"\n\n");
 
 
-                        String ph="+91"+res.getString(2);
+                        String ph="+91"+res.getString(2); //send SMS to the customer phone number
                         String message=buffer.toString();
                         SmsManager mms=SmsManager.getDefault();
                         mms.sendTextMessage(ph, null, message, null,null );
@@ -69,7 +68,7 @@ public class BILLING extends AppCompatActivity {
 
                     }
                     else
-
+           //if selected room= SILVER
                     {
 
                         buffer.append("ID :" + res.getString(0) + "\n");
@@ -97,7 +96,7 @@ public class BILLING extends AppCompatActivity {
                 }
 
                 }
-                if(h==0)
+                if(h==0) //no customer
                 {   showMessage("ERROR","NOTHING FOUND");
 
 
@@ -107,16 +106,12 @@ public class BILLING extends AppCompatActivity {
                     Toast.makeText(BILLING.this,"SMS sent",Toast.LENGTH_LONG).show();
                 }
 
-              /*  String ph="+918660143336";
-                String message="hello 1231";
-                SmsManager mms=SmsManager.getDefault();
-                mms.sendTextMessage(ph, null, message, null,null );
-                Toast.makeText(getApplicationContext(), "SMS sent",Toast.LENGTH_LONG).show();*/
+
             }
         });
         B.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) { //here we display the bill details
                 //retrieving info from database
                 Cursor res=BILL.getALLData();
                 String x=E.getText().toString();

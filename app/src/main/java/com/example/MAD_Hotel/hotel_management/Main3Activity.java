@@ -30,13 +30,14 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
     public void onClick(View view){
       p=new DATABASE_GUEST(this);
       switch (view.getId()){
+        //if user wants to check in
         case R.id.chkin:
           Intent i5;
           i5 = new Intent(Main3Activity.this,GUEST_INSERT_INFO.class);
           startActivity(i5);
           break;
         case R.id.chkout:
-          //number of rooms available
+ // rooms available
           c=0;
           Cursor res=p.getALLData();
           StringBuffer buffer=new StringBuffer();
@@ -45,17 +46,17 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
           {}
           else
           {
-            c++;
+            c++; //calculating number of users
           }
           }
-          //in case error, change c==4 in if
-          if(c==10)
+
+          if(c==10) //when number of occupied room=10
           {
             buffer.append("  0 ROOMS  \n");shoMessage("NO ROOMS AVAILABLE",buffer.toString());
 
           }
           else {
-            buffer.append((rooms-c)+"   \n");
+            buffer.append((rooms-c)+"   \n");  //less than 10 rooms. Then decrement rooms - occupied room
             shoMessage("ROOMS AVAILABLE", buffer.toString());
 
           }
@@ -63,7 +64,7 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
         case R.id.viewg:
           //to view all the customers
           Cursor res1=p.getALLData();
-          if(res1.getCount()==0)
+          if(res1.getCount()==0)  //no guest
           {shoMessage("ERROR","NOTHING FOUND");
             return ;
           }
@@ -80,6 +81,7 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
           shoMessage("DATA",buffer1.toString());
           break;
         case R.id.billg:
+          //billing
           Intent i6;
 
           i6 = new Intent(Main3Activity.this,BILLING.class);

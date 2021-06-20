@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

@@ -44,17 +44,17 @@ public class GUEST_INSERT_INFO extends AppCompatActivity {
         datePicker= (DatePicker) findViewById(R.id.datepicker);
         //calling database
 
-        mydb=new DATABASE_GUEST(this);
-        //delete from here
+        mydb=new DATABASE_GUEST(this);  //refering database
+
         e3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final Calendar c = Calendar.getInstance();
+                final Calendar c = Calendar.getInstance();  //calendar
                 mYear = c.get(Calendar.YEAR);
                 mMonth = c.get(Calendar.MONTH);
                 mDay = c.get(Calendar.DAY_OF_MONTH);
 
-
+// from date
                 DatePickerDialog datePickerDialog = new DatePickerDialog(GUEST_INSERT_INFO.this,
                         new DatePickerDialog.OnDateSetListener() {
 
@@ -78,7 +78,7 @@ public class GUEST_INSERT_INFO extends AppCompatActivity {
                 mMonth = c.get(Calendar.MONTH);
                 mDay = c.get(Calendar.DAY_OF_MONTH);
 
-
+//to date
                 DatePickerDialog datePickerDialog = new DatePickerDialog(GUEST_INSERT_INFO.this,
                         new DatePickerDialog.OnDateSetListener() {
 
@@ -94,14 +94,14 @@ public class GUEST_INSERT_INFO extends AppCompatActivity {
                 datePickerDialog.show();
             }
         });
-        //till here
+
 
 
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 c=0;
-                Cursor res=mydb.getALLData();
+                Cursor res=mydb.getALLData(); //get data of users
                 StringBuffer buffer=new StringBuffer();
                 while(res.moveToNext())
                 {   if(res.getString(0).equals(""))
@@ -109,7 +109,7 @@ public class GUEST_INSERT_INFO extends AppCompatActivity {
                 else
                 { c++; }
                 }
-                if(c==4)
+                if(c==10) //all rooms allocated
                 {
                     Toast toast = Toast.makeText(GUEST_INSERT_INFO.this, "NO ROOMS AVAILABLE", Toast.LENGTH_LONG);
                     toast.show();
@@ -121,7 +121,7 @@ public class GUEST_INSERT_INFO extends AppCompatActivity {
                     else {
 
                         boolean IS = mydb.insertData(e1.getText().toString(), e2.getText().toString(), e3.getText().toString(), e4.getText().toString(), e5.getText().toString(), String.valueOf(e6.getSelectedItem()), e7.getText().toString(), e8.getText().toString());
-                        if (IS == true) {
+                        if (IS == true) { //insert successful return true
 
                             Toast toast = Toast.makeText(GUEST_INSERT_INFO.this, "Inserted", Toast.LENGTH_LONG);
                             toast.show();
@@ -139,7 +139,7 @@ public class GUEST_INSERT_INFO extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //to view all customers
-                Cursor res=mydb.getALLData();
+                Cursor res=mydb.getALLData();  //get all users data
                 if(res.getCount()==0)
                 {showMessage("ERROR","NOTHING FOUND");
                     return ;
@@ -158,6 +158,7 @@ public class GUEST_INSERT_INFO extends AppCompatActivity {
         up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+              //to update customers info
                 boolean is=mydb.updatedata(e1.getText().toString(), e2.getText().toString(), e3.getText().toString(),e4.getText().toString(),e5.getText().toString(),String.valueOf(e6.getSelectedItem()),e7.getText().toString(),e8.getText().toString());
                 if(is==true)
                 {
@@ -175,6 +176,7 @@ public class GUEST_INSERT_INFO extends AppCompatActivity {
         del.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //to delete customer information
                 Integer deletedrows=mydb.deletefunc(e1.getText().toString());
                 if(deletedrows>0)
                 {

@@ -32,11 +32,11 @@ public class Emp_info extends AppCompatActivity {
             public void onClick(View v) {
     //insert employee info
                 boolean I = D.insertvalue(ET1.getText().toString(), ET2.getText().toString(), ET3.getText().toString(),ET4.getText().toString());
-                if (I == true) {
+                if (I == true) {  //record inserted successfully
 
                     Toast toast = Toast.makeText(Emp_info.this, "Inserted", Toast.LENGTH_LONG);
                     toast.show();
-                } else {
+                } else {  //not inserted successfully
                     Toast toast = Toast.makeText(Emp_info.this, "NOT Inserted", Toast.LENGTH_LONG);
                     toast.show();
                 }
@@ -48,7 +48,7 @@ public class Emp_info extends AppCompatActivity {
             public void onClick(View v) {
                 Cursor res=D.getALL();
                 if(res.getCount()==0)
-                //viewing emplyee details
+                //viewing employee details
                 {showMessage("ERROR","NOTHING FOUND");
                     return ;
                 }
@@ -56,7 +56,7 @@ public class Emp_info extends AppCompatActivity {
                 StringBuffer buffer=new StringBuffer();
                 while(res.moveToNext())
                 {
-                    buffer.append("ID :"+res.getString(0)+"\n");
+                    buffer.append("ID :"+res.getString(0)+"\n");  //display employee information
                     buffer.append("NAME :"+res.getString(1)+"\n");
                     buffer.append("D_Name :"+res.getString(2)+"\n\n");
 
@@ -68,7 +68,7 @@ public class Emp_info extends AppCompatActivity {
         BT3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //updaating employee details
+                //updating employee details
                 boolean is=D.update(ET1.getText().toString(), ET2.getText().toString(), ET3.getText().toString(),ET4.getText().toString());
                 if(is==true)
                 {
@@ -88,7 +88,7 @@ public class Emp_info extends AppCompatActivity {
         BT4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //deleting emplyees
+                //deleting employees
                 Integer deletedrows=D.delete(ET1.getText().toString());
                 if(deletedrows>0)
                 {

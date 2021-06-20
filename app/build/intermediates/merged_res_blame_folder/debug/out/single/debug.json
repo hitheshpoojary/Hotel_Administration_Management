@@ -1,82 +1,82 @@
 [
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_images.jpeg.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\drawable\\images.jpeg"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_billing.xml.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\layout\\activity_billing.xml"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main2.xml.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\layout\\activity_main2.xml"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_emplyee.png.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\drawable\\emplyee.png"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main3.xml.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\layout\\activity_main3.xml"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_guest__insert__info.xml.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\layout\\activity_guest__insert__info.xml"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_employeee.png.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\drawable\\employeee.png"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_receptionist.jpg.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\drawable\\receptionist.jpg"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guest.png.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\drawable\\guest.png"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_billing.xml.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\layout\\activity_billing.xml"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_images.jpeg.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\drawable\\images.jpeg"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background.xml.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\drawable\\button_background.xml"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_emp2.png.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\drawable\\emp2.png"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\anim_side_slide.xml.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\anim\\side_slide.xml"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\anim_side_slide.xml.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\anim\\side_slide.xml"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_background.xml.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\drawable\\button_background.xml"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main2.xml.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\layout\\activity_main2.xml"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_emp2.png.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\drawable\\emp2.png"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_guest__insert__info.xml.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\layout\\activity_guest__insert__info.xml"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_emp_info.xml.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\layout\\activity_emp_info.xml"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_emp_info.xml.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\layout\\activity_emp_info.xml"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_receptionist.jpg.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\drawable\\receptionist.jpg"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guest.png.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\drawable\\guest.png"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_employeee.png.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\drawable\\employeee.png"
     },
     {
-        "merged": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_emplyee.png.flat",
-        "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\drawable\\emplyee.png"
+        "merged": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main3.xml.flat",
+        "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\layout\\activity_main3.xml"
     }
 ]

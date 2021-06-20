@@ -17,14 +17,14 @@ public class Main2Activity extends AppCompatActivity {
         guest_info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i2= new Intent(Main2Activity.this,Main3Activity.class);
+                Intent i2= new Intent(Main2Activity.this,Main3Activity.class); //link to main activity 3
                 startActivity(i2);
             }
         });
         emp_info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i1= new Intent(Main2Activity.this,Login.class);
+                Intent i1= new Intent(Main2Activity.this,Login.class);  //link to login page
                 startActivity(i1);
             }
         });

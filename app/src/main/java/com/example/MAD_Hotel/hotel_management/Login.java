@@ -35,7 +35,7 @@ public class Login extends AppCompatActivity {
           if(pass==""||pass==null){
             flag=0; }
           else{
-            if(uname.equals("admin")&&pass.equals("pass")){
+            if(uname.equals("admin")&&pass.equals("pass")){  //username =admin  password=pass
               flag=1;}
             else{
               flag=0;}

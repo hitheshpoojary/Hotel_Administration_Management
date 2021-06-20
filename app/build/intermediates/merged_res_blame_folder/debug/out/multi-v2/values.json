@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\MAD\\HO_MA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pooja\\.gradle\\caches\\transforms-2\\files-2.1\\dbda32534856991d5fde864e67422bdd\\appcompat-v7-25.1.0\\res\\values\\values.xml",
@@ -23,7 +23,24 @@
                     }
                 },
                 {
-                    "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,146",
+                        "endColumns": "57,55",
+                        "endOffsets": "141,197"
+                    },
+                    "to": {
+                        "startLines": "283,284",
+                        "startColumns": "4,4",
+                        "startOffsets": "16116,16174",
+                        "endColumns": "57,55",
+                        "endOffsets": "16169,16225"
+                    }
+                },
+                {
+                    "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "2,1",
                         "startColumns": "2,2",
@@ -39,25 +56,6 @@
                         "endLines": "6,358",
                         "endColumns": "17,58",
                         "endOffsets": "151,21271"
-                    }
-                },
-                {
-                    "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "368"
-                    },
-                    "to": {
-                        "startLines": "365",
-                        "startColumns": "4",
-                        "startOffsets": "21752",
-                        "endLines": "370",
-                        "endColumns": "12",
-                        "endOffsets": "22066"
                     }
                 },
                 {
@@ -80,24 +78,26 @@
                     }
                 },
                 {
-                    "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "88,146",
-                        "endColumns": "57,55",
-                        "endOffsets": "141,197"
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "368"
                     },
                     "to": {
-                        "startLines": "283,284",
-                        "startColumns": "4,4",
-                        "startOffsets": "16116,16174",
-                        "endColumns": "57,55",
-                        "endOffsets": "16169,16225"
+                        "startLines": "365",
+                        "startColumns": "4",
+                        "startOffsets": "21752",
+                        "endLines": "370",
+                        "endColumns": "12",
+                        "endOffsets": "22066"
                     }
                 },
                 {
-                    "source": "D:\\MAD\\HO_MA\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "D:\\MAD\\mad_final_homa\\HO_MA\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "4,5,2,3,6",
                         "startColumns": "4,4,4,4,5",
